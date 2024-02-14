@@ -1,0 +1,69 @@
+/* inter forn */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+:root {
+  --primary: #5956e8;
+}
+body {
+  font-family: "Inter", sans-serif;
+}
+.container {
+  max-width: 1170px;
+}
+
+header {
+  padding: 34px 0;
+}
+/* -----navbar css---- */
+
+.navbar-btn {
+  background-color: var(--primary);
+  /* outline: none; */
+  padding: 13px 24px;
+  font-size: 18px;
+  border-radius: 10px;
+  font-weight: 500;
+}
+
+.nav-item {
+  margin-left: 50px;
+}
+
+.nav-item:hover a {
+  color: var(--primary);
+}
+
+/* -------main section starts------ */
+
+/* ------banner section------- */
+#banner {
+  background-color: var(--primary);
+  padding-top: 165px;
+  padding-bottom: 200px;
+}
+
+#banner h1 {
+  font-size: 65px;
+  font-weight: 600;
+  color: #fffefe;
+  line-height: 80px;
+}
+
+#banner p {
+  font-size: 16px;
+  color: #fffefe;
+  line-height: 27px;
+  margin-top: 25px;
+  margin-bottom: 30px;
+}
+
+#banner button {
+  color: var(--primary);
+  padding: 13px 22px;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+#banner button:hover {
+  color: yellow;
+  background-color: black;
+}
